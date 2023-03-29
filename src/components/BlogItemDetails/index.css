@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+.blog-item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.blog-details {
+  width: 660px;
+}
+
+.blog-img {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .item-title {
+    font-size: 20px;
+  }
+  .blog-img {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .author-details {
+    display: flex;
+  }
+  .blog-details {
+    width: 90%;
+  }
+  .content {
+    color: #8e8e8e;
+    font-size: 16px;
+  }
+}
